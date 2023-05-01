@@ -1,0 +1,11 @@
+[package]
+name = "macroquad-sp"
+version = "0.1.0"
+edition = "2021"
+authors = ["Ziloka <50429450+ziloka@users.noreply.github.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+xatrop-rs = { git = "https://github.com/Xatrop/xatrop-rs.git", rev = "b3545dc46b5d9755348c3cec00f3f11e2ffdcc53" }
+macroquad = "0.3.25"
